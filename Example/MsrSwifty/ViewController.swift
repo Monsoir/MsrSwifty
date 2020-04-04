@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MsrSwifty
 
 class ViewController: UIViewController {
 

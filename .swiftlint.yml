@@ -1,0 +1,39 @@
+# 详细规则 https://github.com/realm/SwiftLint/blob/master/README_CN.md
+
+opt_in_rules:
+  - force_unwrapping
+excluded:
+  - Carthage
+  - Example/Pods/Pods
+force_try: warning
+line_length: 200
+identifier_name:
+  excluded:
+    - x
+    - y
+    - i
+    - id
+    - db
+    - on
+    - MainQueue
+    - DefaultGlobalQueue
+    - A
+    - B
+    - C
+    - D
+    - U
+    - T
+type_name:
+  max_length: # 警告和错误
+    warning: 50
+    error: 400
+
+custom_rules:
+  # 避免局部变量与 view controller 的 view 属性冲突，产生 bug, 该 bug 一触发会让人怀疑人生 
+  unexpected_bugs_potential:
+    regex: (^\s*)return view(\s*$) 
+    message: "use other variable instead, such as `result`"
+    severity: error
+
+  
+
