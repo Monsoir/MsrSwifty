@@ -1,5 +1,7 @@
 # MsrSwifty
 
+Personal utilities.
+
 [![CI Status](https://img.shields.io/travis/Monsoir/MsrSwifty.svg?style=flat)](https://travis-ci.org/Monsoir/MsrSwifty)
 [![Version](https://img.shields.io/cocoapods/v/MsrSwifty.svg?style=flat)](https://cocoapods.org/pods/MsrSwifty)
 [![License](https://img.shields.io/cocoapods/l/MsrSwifty.svg?style=flat)](https://cocoapods.org/pods/MsrSwifty)
@@ -11,19 +13,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Swift 5.0+
+
 ## Installation
 
-MsrSwifty is available through [CocoaPods](https://cocoapods.org). To install
+MsrSwifty is **not** available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MsrSwifty'
+pod 'MsrSwifty', :git => 'git@github.com:Monsoir/MsrSwifty.git', :tag => '0.1.0'
 ```
 
-## Author
 
-Monsoir, monwingyeung@gmail.com
-
-## License
-
-MsrSwifty is available under the MIT license. See the LICENSE file for more info.
