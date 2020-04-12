@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E29EC1477910C5DC26476B9 /* Pods_MsrSwifty_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07FEA241DF360CA8FD1534A1 /* Pods_MsrSwifty_Example.framework */; };
+		4474712D2443382B0058CEB8 /* JSONUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474712C2443382B0058CEB8 /* JSONUtilTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		07FEA241DF360CA8FD1534A1 /* Pods_MsrSwifty_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MsrSwifty_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13ABD8E124B45E22F91EF257 /* Pods_MsrSwifty_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MsrSwifty_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFC470DAA15A9ED19B2A291 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4474712C2443382B0058CEB8 /* JSONUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONUtilTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MsrSwifty_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsrSwifty_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				4474712C2443382B0058CEB8 /* JSONUtilTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -368,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				4474712D2443382B0058CEB8 /* JSONUtilTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
